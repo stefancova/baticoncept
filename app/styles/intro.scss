@@ -1,7 +1,9 @@
 body {
     overflow: hidden;
-    //font-family: 'Open Sans', sans-serif;
     font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
 }
 
 #logo {
@@ -34,11 +36,10 @@ body {
         line-height: 200px;
         transition : all 150ms cubic-bezier(.3,.93,.7,1)
     }
-    &:hover span{
-        font-size: 100px;
-    }
 }
-
+.csstransitions .letter:hover span{
+    font-size: 100px;
+}
 // 1.Mode Icon
 #B {
     background-color: #e2001a;
@@ -125,17 +126,8 @@ body {
 /* background test */
 #container {
     perspective: 50px;
-    -webkit-perspective: 50px;
-    -moz-perspective: 50px;
-    -ms-perspective: 50px;
-
     transform-origin: 50% 100%;
-    -webkit-transform-origin: 50% 100%;
-    -moz-transform-origin: 50% 100%;
-    -ms-transform-origin: 50% 100%;
-
     pointer-events: none;
-
     opacity: 0.55;
 }
 
@@ -144,6 +136,9 @@ body {
     width: 30px;
     height: 30px;
     background-color: #e2001a;
+    &:nth-child(odd){
+        border-radius: 30px;
+    }
     &:nth-child(4n+1) {
         background-color: #f0a500;
     }
@@ -160,9 +155,7 @@ body {
 @media screen and (max-width: 500px) {
     #logo {
         transform-origin: 25% 30%;
-        -webkit-transform-origin: 25% 30%;
         transform: scale(0.5);
-        -webkit-transform: scale(0.5);
     }
     .contact {
         .separator {
