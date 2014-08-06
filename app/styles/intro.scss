@@ -1,0 +1,175 @@
+body {
+    overflow: hidden;
+    //font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+
+#logo {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 420px;
+    height: 500px;
+}
+
+.letter {
+    position: relative;
+    box-sizing: border-box;
+    width: 48%;
+    margin: 1%;
+    height: 200px;
+    float: left;
+    opacity: 0;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    overflow: hidden;
+    text-align: center;
+    span{
+        color: white;
+        font-size: 200px;
+        line-height: 200px;
+        transition : all 150ms cubic-bezier(.3,.93,.7,1)
+    }
+    &:hover span{
+        font-size: 100px;
+    }
+}
+
+// 1.Mode Icon
+#B {
+    background-color: #e2001a;
+}
+
+#A {
+    background-color: #f0a500;
+}
+
+#T {
+    background-color: #c6cc00;
+}
+
+#I {
+    background-color: #93774e;
+}
+
+// 2.Mode Svg
+/*#B {
+    background-image: url('../img/B.svg');
+    .inner {
+        background-color: #e2001a;
+    }
+}
+
+#A {
+    background-image: url('../img/A.svg');
+    .inner {
+        background-color: #f0a500;
+    }
+}
+
+#T {
+    background-image: url('../img/T.svg');
+    .inner {
+        background-color: #c6cc00;
+    }
+}
+
+#I {
+    background-image: url('../img/I.svg');
+    .inner {
+        background-color: #93774e;
+    }
+}
+
+.no-svg {
+    #B {
+        background-image: url('../img/B.png');
+    }
+    #A {
+        background-image: url('../img/A.png');
+    }
+    #T {
+        background-image: url('../img/T.png');
+    }
+    #I {
+        background-image: url('../img/I.png');
+    }
+}
+*/
+#concept {
+    font-weight: 300;
+    font-size: 70px;
+    span {
+        opacity: 0;
+    }
+}
+
+.contact {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    display: none;
+    font-size: 16px;
+    font-weight: normal;
+    a {
+        color: #111;
+    }
+}
+
+/* background test */
+#container {
+    perspective: 50px;
+    -webkit-perspective: 50px;
+    -moz-perspective: 50px;
+    -ms-perspective: 50px;
+
+    transform-origin: 50% 100%;
+    -webkit-transform-origin: 50% 100%;
+    -moz-transform-origin: 50% 100%;
+    -ms-transform-origin: 50% 100%;
+
+    pointer-events: none;
+
+    opacity: 0.55;
+}
+
+.dot {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    background-color: #e2001a;
+    &:nth-child(4n+1) {
+        background-color: #f0a500;
+    }
+    &:nth-child(4n+2) {
+        background-color: #c6cc00;
+    }
+    &:nth-child(4n+3) {
+        background-color: #93774e;
+    }
+}
+
+/* ------------- MOBILE  -----------------  */
+
+@media screen and (max-width: 500px) {
+    #logo {
+        transform-origin: 25% 30%;
+        -webkit-transform-origin: 25% 30%;
+        transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+    }
+    .contact {
+        .separator {
+            display: none;
+        }
+        a {
+            display: block;
+        }
+    }
+}

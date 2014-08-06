@@ -1,0 +1,156 @@
+{
+	"IcoMoonType": "selection",
+	"icons": [
+		{
+			"icon": {
+				"paths": [
+					"M619.965 822.374l-35.799-104.94h-149.709l-35.794 104.94h-275l215.603-620.764h339.676l215.613 620.764z"
+				],
+				"attrs": [
+					{}
+				],
+				"grid": 32,
+				"tags": [
+					"A"
+				]
+			},
+			"attrs": [
+				{}
+			],
+			"properties": {
+				"order": 1,
+				"id": 3,
+				"prevSize": 32,
+				"code": 65,
+				"name": "A",
+				"ligatures": ""
+			},
+			"setIdx": 0,
+			"iconIdx": 0
+		},
+		{
+			"icon": {
+				"paths": [
+					"M779.054 775.603c-37.289 31.186-89.564 46.781-156.82 46.781h-381.169v-620.774h336.42c79.462 0 139.464 15.529 180.009 46.582 40.545 31.058 60.815 73.288 60.815 126.715 0 58.322-26.988 102.784-80.952 133.432 32 16.824 56.269 36.408 72.817 58.778 16.543 22.374 24.817 50.243 24.817 83.599 0 52.070-18.647 93.711-55.936 124.887z"
+				],
+				"attrs": [
+					{}
+				],
+				"grid": 32,
+				"tags": [
+					"B"
+				]
+			},
+			"attrs": [
+				{}
+			],
+			"properties": {
+				"order": 2,
+				"id": 2,
+				"prevSize": 32,
+				"code": 66,
+				"name": "B",
+				"ligatures": ""
+			},
+			"setIdx": 0,
+			"iconIdx": 1
+		},
+		{
+			"icon": {
+				"paths": [
+					"M373.714 200.627h274.596v620.774h-274.596v-620.774z"
+				],
+				"attrs": [
+					{}
+				],
+				"grid": 32,
+				"tags": [
+					"I"
+				]
+			},
+			"attrs": [
+				{}
+			],
+			"properties": {
+				"order": 3,
+				"id": 1,
+				"prevSize": 32,
+				"code": 73,
+				"name": "I",
+				"ligatures": ""
+			},
+			"setIdx": 0,
+			"iconIdx": 2
+		},
+		{
+			"icon": {
+				"paths": [
+					"M787.804 476.605h-138.312v345.784h-274.99v-345.784h-138.312v-274.99h551.613z"
+				],
+				"attrs": [
+					{}
+				],
+				"grid": 32,
+				"tags": [
+					"T"
+				]
+			},
+			"attrs": [
+				{}
+			],
+			"properties": {
+				"order": 4,
+				"id": 0,
+				"prevSize": 32,
+				"code": 84,
+				"name": "T",
+				"ligatures": ""
+			},
+			"setIdx": 0,
+			"iconIdx": 3
+		}
+	],
+	"height": 1024,
+	"metadata": {
+		"name": "icomoon"
+	},
+	"preferences": {
+		"fontPref": {
+			"prefix": "icon-",
+			"metadata": {
+				"fontFamily": "icomoon"
+			},
+			"showGlyphs": true,
+			"metrics": {
+				"emSize": 512,
+				"baseline": 6.25,
+				"whitespace": 50
+			},
+			"resetPoint": 58880,
+			"showQuickUse": true,
+			"quickUsageToken": false,
+			"showMetrics": true,
+			"showMetadata": false,
+			"autoHost": true
+		},
+		"imagePref": {
+			"color": 0,
+			"height": 32,
+			"columns": 16,
+			"margin": 16,
+			"png": false,
+			"sprites": true
+		},
+		"historySize": 100,
+		"showCodes": true,
+		"gridSize": 16,
+		"showLiga": false,
+		"showGrid": true,
+		"showGlyphs": true,
+		"showQuickUse": true,
+		"search": "",
+		"quickUsageToken": {
+			"Baticoncept": "NzgyZmZjYzUyZTNlMDI2OGMyY2M2ZWYyYmM3N2Y1OTUjMiMxNDA3MjUyNjQ4IyMj"
+		}
+	}
+}
