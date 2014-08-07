@@ -58,7 +58,7 @@ $(document).ready(function () {
         // Launch dots background
         $('.csstransitions.no-touch').find('#logo').one('click', function () {
             dotsBackground();
-            //_gaq.push(['_trackEvent', 'Intro', 'Click', 'DotsBackground']);
+            ga('send', 'event', 'button', 'click', 'Dots background')
         });
     };
 
