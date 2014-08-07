@@ -1,0 +1,27 @@
+#map-wrapper {
+    position: absolute;
+    z-index: 100;
+    bottom: 0;
+    left:0;
+    height: 100%;
+    width: 100%;
+
+}
+#map-canvas{
+    width: 100%;
+    height: 100%;
+}
+#hide-map{
+    position: absolute;
+    z-index: 200;
+    bottom: 0;
+    right: 0;
+    height: 100px;
+    width: 100px;
+    background: white;
+    cursor: pointer;
+    text-align: center;
+    span{
+        line-height: 100px;
+    }
+}

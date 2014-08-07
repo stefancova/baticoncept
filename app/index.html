@@ -35,9 +35,22 @@
         </h1>
     </div>
     <h2 class="contact">
-        Le site arrive bientôt. En attendant, vous pouvez nous contacter par mail
+        Le site arrive bientôt. En attendant, vous <span id="show-map">pouvez</span> nous contacter par mail
         <a class="email" href="mailto:baticonceptsarl@sfr.fr">baticonceptsarl@sfr.fr</a>
     </h2>
+
+    <div id="map-wrapper">
+        <div id="hide-map">
+            <span>CLOSE</span>
+        </div>
+        <div id="map-canvas">
+        <span id="map-input">
+            15 rue de la victoire<br>
+            93150 Le Blanc-Mesnil<br>
+            France
+        </span>
+        </div>
+    </div>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
@@ -57,9 +70,12 @@
     <!-- endbower -->
     <!-- endbuild -->
 
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false&extension=.js&output=embed"></script>
+
     <!-- build:js scripts/main.js -->
     <script src="scripts/console.js"></script>
     <script src="scripts/main.js"></script>
+    <script src="scripts/map.js"></script>
     <!-- endbuild -->
 </body>
 </html>

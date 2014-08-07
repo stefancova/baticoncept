@@ -188,4 +188,5 @@ $(document).ready(function () {
 
     // Main init
     initIntro();
+    baticonceptMap.init();
 });
