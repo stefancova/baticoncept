@@ -54,8 +54,11 @@ $(document).ready(function () {
 
     var showContact = function () {
         $('.contact').velocity('slideDown', { delay: 0, duration: 500 }, { display: 'block' });
+
+        // Launch dots background
         $('.csstransitions.no-touch').find('#logo').one('click', function () {
             dotsBackground();
+            //_gaq.push(['_trackEvent', 'Intro', 'Click', 'DotsBackground']);
         });
     };
 
