@@ -55,12 +55,13 @@ var baticonceptMap = (function () {
     var _showHideMap = function(){
 
         $map.velocity({ translateZ: 0, translateX: '100%' }, 0);
+        $map.show();
 
         $('#show-map').on('click', function () {
-            $map.velocity({ translateZ: 0, translateX: '0' }, 'easeOutQuart' , 1000);
+            $map.velocity({ translateZ: 0, translateX: '0' }, 'easeOutQuart' , 750);
         });
         $('#hide-map').on('click', function () {
-            $map.velocity({ translateZ: 0, translateX: '100%' }, 'easeOutQuart' , 500);
+            $map.velocity({ translateZ: 0, translateX: '100%' }, 'easeOutQuart' , 750);
         });
     };
 
